@@ -67,11 +67,11 @@ export default function LevelsSystem() {
       badge: "~1 уровень/месяц",
       tier: "growth" as const,
       levels: [
-        { level: 6, points: 500, bonus: "+50 баллов" },
-        { level: 7, points: 750, bonus: "+50 баллов" },
-        { level: 8, points: 1000, bonus: "+50 баллов" },
-        { level: 9, points: 1250, bonus: "+50 баллов" },
-        { level: 10, points: 1500, bonus: "+50 баллов", isLottery: true },
+        { level: 6, points: 500, bonus: "+100 баллов" },
+        { level: 7, points: 750, bonus: "+100 баллов" },
+        { level: 8, points: 1000, bonus: "+100 баллов" },
+        { level: 9, points: 1250, bonus: "+100 баллов" },
+        { level: 10, points: 1500, bonus: "+200 баллов", isLottery: true },
       ]
     },
     {
@@ -81,11 +81,11 @@ export default function LevelsSystem() {
       badge: "Долгосрочно",
       tier: "elite" as const,
       levels: [
-        { level: 11, points: 1750, bonus: "+50 баллов" },
-        { level: 12, points: 2000, bonus: "+50 баллов" },
-        { level: 13, points: 2200, bonus: "+50 баллов" },
-        { level: 14, points: 2350, bonus: "+50 баллов" },
-        { level: 15, points: 2500, bonus: "+50 баллов", isLottery: true },
+        { level: 11, points: 1750, bonus: "+200 баллов" },
+        { level: 12, points: 2000, bonus: "+200 баллов" },
+        { level: 13, points: 2200, bonus: "+250 баллов" },
+        { level: 14, points: 2350, bonus: "+300 баллов" },
+        { level: 15, points: 2500, bonus: "+500 баллов", isLottery: true },
       ]
     }
   ];
